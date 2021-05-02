@@ -1,0 +1,64 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    position: fixed;
+}
+
+.h3 {
+color: #f57200;
+font-size: 2.5vw;
+text-align: center;
+background-color: black;
+margin-top: 0px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.body_img {
+    background-image: url(https://image.freepik.com/vetores-gratis/fim-de-jogo_23-2148078610.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.desing_button {
+    border-radius: 20px;
+    width: 25%;
+    font-size: 2vw;
+    padding: 2%;
+    background-color: #f57200;
+    border: none;
+    margin: 25%;
+    transition: 0.8s;
+    text-decoration: none;
+    opacity: 0.9;
+    margin-left: 540px;
+}
+
+.desing_button a {
+    color: white;
+    text-decoration: none;
+}
+
+.desing_button:hover {
+    font-size: 2.5vw;
+    transform: 50%;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+.rodape {
+    position: fixed;
+    bottom: 0;
+    padding-top: 0px;
+    background:#f57200;
+    width: 100%;
+    height: 5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
